@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+body{
+    background-color: rgb(250, 241, 241);
+
+}
+header{
+    background-color: rgb(25, 19, 63);
+    color:white;
+    text-align: center;
+    padding:20px 20px;
+    font-family:Verdana,Tahoma, sans-serif;
+    line-height: 1.5;
+}
+header button{
+    padding:10px;
+    margin:10px;
+    border-radius: 5px;
+    background-color: rgb(131, 232, 200);
+    color: white;
+    font-size: 15px;
+}
+
+#add-task{
+    width:500px;
+    text-align: center;
+}
+#input{
+    padding:10px;
+    border-radius: 5px;
+    width:300px;
+}
+#btn{
+    padding:9px;
+    background-color: orange;
+    color:white;
+    border-radius: 8px;
+    font-size: 15px;
+    border:none;
+}
+#add-task form{
+    background-color: white;
+    padding:30px;
+    width:500px;
+    margin:auto;
+    border-radius:10px;
+}
+main{
+    text-align: center;
+    list-style: none;
+    display: block;
+    
+}
+#tasks{
+  background-color: white;
+  /* margin:30px; */
+  width:500px;
+  margin:auto;
+  padding: 30px;
+  margin-top:35px;
+  border-radius: 10px;
+}
+#list-container {
+    /* background-color: gray; */
+    margin-top:15px;
+    padding:10px;
+    border-radius: 10px;
+    /* border:2px solid gray; */
+    font-size:20px; 
+    line-height: 1.5;
+}
+#list-container li{
+    margin-top:15px;
+    padding:7px;
+    border-radius: 10px;
+    border:2px solid rgb(210, 207, 207);
+    font-size:20px; 
+}
+
+#delete{
+    background-color: orange;
+    color:white;
+    font-size: 18px;
+    padding:5px;
+    border:none;
+    border-radius:5px;
+}
+
